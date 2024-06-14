@@ -1,0 +1,4 @@
+
+func command() {
+    print("command")
+}

@@ -107,7 +107,7 @@ namespace CommandPattern
     class GameActor
     {
     public:
-      void jump() {}
+  void jump() {}
     };
 
     //^actor-command

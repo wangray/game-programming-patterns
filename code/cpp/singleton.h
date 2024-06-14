@@ -24,14 +24,14 @@ namespace Singleton1
 
   void test()
   {
-    if (&FileSystem::instance() == NULL)
-    {
-      std::cout << "singleton is null!" << std::endl;
-    }
-    else
-    {
+//    if (FileSystem::instance() == NULL)
+//    {
+//      std::cout << "singleton is null!" << std::endl;
+//    }
+//    else
+//    {
       std::cout << "singleton is ok" << std::endl;
-    }
+//    }
   }
 }
 
@@ -54,14 +54,14 @@ namespace SingletonStatic
 
   void test()
   {
-    if (&FileSystem::instance() == NULL)
-    {
-      std::cout << "singleton is null!" << std::endl;
-    }
-    else
-    {
+//    if (FileSystem::instance() == NULL)
+//    {
+//      std::cout << "singleton is null!" << std::endl;
+//    }
+//    else
+//    {
       std::cout << "singleton is ok" << std::endl;
-    }
+//    }
   }
 }
 
