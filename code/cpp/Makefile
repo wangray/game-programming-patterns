@@ -21,6 +21,3 @@ main: $(OBJS)
 
 clean:
 	$(RM) $(OBJS)
-
-distclean: clean
-	$(RM) tool
